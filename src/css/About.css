@@ -1,0 +1,188 @@
+:root {
+    --fontsizehead: 25px;
+    --primarycolor: black;
+    --secondarycolor: #ffc107;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --fontSize: 20px;
+}
+.mee1 p {
+
+    font-size: 19px;
+    margin-left:500px ;
+    width:55%;
+    color: #6c757d;
+}
+
+.about {
+  
+    background-image: url(../assets/bg2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+
+.aboutme{
+
+   padding-top:40px;
+   text-align: center;
+   
+}
+.details{
+
+    align-items: center;
+    margin-left:500px;
+}
+
+.info{
+    padding:6px;
+    color:#1a1a1a;
+}
+.info span{
+
+    padding-left:10px;
+    color: #6c757d;
+}
+.head{
+
+padding-right: 10px;
+font-weight: bold;
+}
+
+.skilly{
+
+    margin-left:480px;
+
+}
+.skillsk{
+
+    margin-left: 500px;
+    width: 50%;
+
+}
+.ab nav ul {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    width: 25%;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left:500px;
+}
+
+.ab nav ul li {
+    list-style: none;
+    font-size: var(--fontsizehead);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+
+.ab nav ul li::after {
+    content: '';
+    display: block;
+    background-color: var(--orange);
+    height: 2.5px;
+    transform: scaleX(0);
+    border-radius: 20px;
+    transition: transform 300ms;
+}
+
+.ab nav ul li:hover::after {
+
+    transform: scaleX(1);
+}
+
+.mblskill {
+    display: none;
+}
+
+.mblskill ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.mblskill h4 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: fit-content;
+    padding: 5px 35px;
+    background-color: #fd7e14;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.skillsk {
+    
+    font-size: 18px;
+    list-style: none;
+}
+
+
+
+@media(max-width:1192px) {
+   
+    .about {
+  
+        background-image: url(../assets/bg2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+    
+    }
+  
+
+    .aboutme{
+
+        padding-top: 10px;
+        padding-left: 10px;
+        text-align: left;
+        
+    }
+
+    .ab nav ul li 
+    {
+        display: none;
+    }
+
+    .mee1 p{
+
+        margin-left:10px;
+       
+    }
+
+    .details{
+
+        margin-left:10px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .mblskill {
+        padding: 10px;
+        display: block;
+    }
+
+    .skill {
+        
+        display: none;
+    }
+
+    .skilly {
+    
+        display: none;
+    }
+
+ 
+}

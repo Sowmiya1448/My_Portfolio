@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+.frontend ul li{
+   display:inline;
+   font-size: var(--fontSize);
+ }
+
+ .head{
+   font-size:var(--fontsizehead);
+   color:#fd7e14;
+  
+}
+.head1{
+   list-style: none;
+   font-size:var(--fontsizehead);
+}
+.head1 img{
+   border-radius: 50%;
+}
+
+

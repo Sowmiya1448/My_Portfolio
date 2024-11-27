@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+}
+
+.contact{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 10px;
+    flex-wrap: wrap;
+    background-image: url(../assets/bg4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.contact .con_title{
+    position: relative;
+    width: 100%;
+  }
+
+  .titlecon{
+    color:var(--yellow);
+    padding-top: 40px;
+    text-align: center;
+
+  }
+.con_title span{
+    color:black;
+
+}
+
+.con_title h1{
+    padding: 0 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.contact_part{
+    margin-top:-50px;
+    display: flex;
+    gap:150px;
+    flex-wrap: wrap;
+}
+.my_contact
+
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+
+.contact_details{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size:20px;
+    flex-wrap: wrap;
+}
+
+.con_detail{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.con_detail p{
+    padding-top:12px;
+
+}
+
+.contact_right{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact_right label{
+
+    color:black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contact_right input{
+    border: none;
+    width: 500px;
+    height: 50px;
+    padding-left: 20px;
+    background-color: #f0f0f0; 
+    color: #000; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 20px;
+}
+.contact_right textarea{
+
+    width: 500px;
+    height: 200px;
+    padding:20px;
+    background-color: #f0f0f0; 
+    color: #000; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 20px;
+
+
+}
+.submitbtn
+{
+    border: none;
+    color: #fff;
+    border-radius:50px;
+    background: var(--orange);
+    font-size: 20px;
+    padding:10px 60px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submitbtn:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+
+@media(max-width:1099px){
+
+    
+        .contact{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 80px;
+            margin: 10px;
+            flex-wrap: wrap;
+            background-image: url(../assets/bg4.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow-x: hidden;
+        }
+    
+
+    .contact_right{
+
+        margin-top:-80px;
+    }
+
+
+
+
+    .titlecon{
+     
+        text-align:left;
+    
+      }
+   
+}
