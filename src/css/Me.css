@@ -22,6 +22,24 @@ section{
 
 }
 
+.im{
+
+    display:flex;
+    flex-flow: row;
+}
+
+.imge{
+
+ margin-top:40px ;
+ position: absolute;
+ right:350px;
+}
+
+.imge img{
+
+    border-radius: 50%;
+}
+
 .mee{
 
     width: 50%;
