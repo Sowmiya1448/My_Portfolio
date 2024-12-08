@@ -1,14 +1,18 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../css/About.css'
 import '../css/Skills.css'
 import git from '../assets/git1.png'
 import arrow from '../assets/right.png'
-import html from '../assets/html.jpg'
+import html from '../assets/html.png'
 import css from '../assets/css.png'
 import js from '../assets/js.png'
-import rjs from '../assets/react-logo-1.png'
-import boot from '../assets/boot2.png'
-// import node from '../assets/'
+import rjs from '../assets/react1.png'
+import boot from '../assets/boot2.svg'
+import node from '../assets/node.png'
+import ex from '../assets/express.svg'
+import db from '../assets/mongodb.svg'
+import gitt from '../assets/github.png'
+
 
 
 
@@ -53,6 +57,7 @@ const About = () => {
                         <li><img src={arrow} alt="" width={'25px'} height={'25px'} />BOOTSTRAP </li>
                         <li><img src={arrow} alt="" width={'25px'} height={'25px'} />NODE JS</li>
                         <li><img src={arrow} alt="" width={'25px'} height={'25px'} />EXPRESS JS</li>
+                        <li><img src={arrow} alt="" width={'25px'} height={'25px'} />MONGODB</li>
                         <li><img src={arrow} alt="" width={'25px'} height={'25px'} />GITHUB <img src={git} width={'25'} height={'25'}/></li>
                     </ul>
                 </div>
@@ -76,10 +81,10 @@ const About = () => {
                    
                       <div>
                         <h6>HTML</h6>
-                        <img src={html} alt="" height={"55px"} width={"55px"} />
+                        <img src={html} alt="" height={"50px"} width={"50px"} />
                     </div>
-                    <div> <h6>CSS</h6><img src={css} alt="" height={"55px"} width={"55px"} /></div>
-                    <div><h6>JavaScript</h6><img src={js} alt="" height={"55px"} width={"60px"} /></div>
+                    <div> <h6>CSS</h6><img src={css} alt="" height={"50px"} width={"50px"} /></div>
+                    <div><h6>JavaScript</h6><img src={js} alt="" height={"50px"} width={"50px"} /></div>
 
                     <div>
                         <h6>React</h6>
@@ -89,7 +94,7 @@ const About = () => {
                         <h6>Bootstrap</h6>
                         <img src={boot} alt="" height={"50px"} width={"50px"} />
                     </div>
-                    {/* <div>
+                    <div>
                         <h6>Node js</h6>
                         <img src={node} alt="" height={"50px"} width={"50px"} />
                     </div>
@@ -103,8 +108,8 @@ const About = () => {
                     </div>
                     <div>
                         <h6>GitHub</h6>
-                        <img src={git} alt="" height={"50px"} width={"50px"} />
-                    </div> */}
+                        <img src={gitt} alt="" height={"50px"} width={"50px"} />
+                    </div>
                 
 
                 </div>
