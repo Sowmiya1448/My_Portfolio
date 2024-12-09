@@ -43,7 +43,29 @@
 button a{
 
     text-decoration: none;
-    color:var(--yellow);
+    color: #ffc107;
+}
+button a:hover{
+
+ 
+    color:violet;
+}
+
+.projects button{
+
+    background-color: white;
+    
+    text-align: center;
+    padding: 5px 10px;
+    margin-left:40%;
+    border-radius: 5px;
+    border: 1px solid yellow;
+}
+
+.projects button:hover{
+
+    border: 1px solid violet;
+  
 }
 
 

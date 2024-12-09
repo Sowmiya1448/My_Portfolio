@@ -23,7 +23,7 @@ const Project = () => {
             <img src={res} alt="res" />
             <h5>Restaurant Management System</h5>
             <p>Technologies Used : React, CSS, Nodejs, Expressjs, MongoDB</p>
-            <button className='btn btn-outline-warning' style={{ border: "1px solid yellow", backgroundColor: "white", marginLeft: "135px", marginTop: "5px", }}> <a href="#">View</a></button>
+            <button > <a href="#">View</a></button>
 
           </div>
 
@@ -35,7 +35,7 @@ const Project = () => {
           
 
 
-            <button className='btn btn-outline-warning' style={{ border: "1px solid yellow", backgroundColor: "white", marginLeft: "135px", marginTop: "5px", }}> <a href="#">View</a></button>
+            <button> <a href="#">View</a></button>
 
           </div>
 
@@ -49,7 +49,7 @@ const Project = () => {
     
 
 
-            <button className='btn btn-outline-warning' style={{ border: "1px solid yellow", backgroundColor: "white", marginLeft: "135px", marginTop: "5px", }}> <a href="#">View</a></button>
+            <button > <a href="#">View</a></button>
 
           </div>
 
