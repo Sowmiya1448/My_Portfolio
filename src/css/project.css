@@ -17,7 +17,7 @@
 }
 .projects{
 
-    height:535px;
+    height:400px;
     background-color:rgb(239, 175, 239);
     width: 350px;
     border-radius: 10px;
@@ -36,7 +36,10 @@
 .projects h5{
 
     text-align: center;
+    color: white;
+    font-weight: bold;
 }
+
 button a{
 
     text-decoration: none;
@@ -54,7 +57,9 @@ button a{
 
     width:350px;
    padding: 10px;
-   margin-top: 5px;
+
+  
+   
   
 
 }
@@ -65,8 +70,9 @@ button a{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-top:3rem;
+    margin-top:6rem;
    
    
 }
+
 
