@@ -45,11 +45,7 @@ button a{
     text-decoration: none;
     color: #ffc107;
 }
-button a:hover{
 
- 
-    color:violet;
-}
 
 .projects button{
 
@@ -62,11 +58,7 @@ button a:hover{
     border: 1px solid yellow;
 }
 
-.projects button:hover{
 
-    border: 1px solid violet;
-  
-}
 
 
 .projects p{
@@ -79,10 +71,6 @@ button a:hover{
 
     width:350px;
    padding: 10px;
-
-  
-   
-  
 
 }
 .pro-con{

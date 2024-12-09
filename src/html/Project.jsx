@@ -1,6 +1,8 @@
 import React from 'react'
 import '../css/project.css'
 import res from "../assets/res.png"
+import port from '../assets/port.png'
+import lap from '../assets/lap.png'
 
 
 const Project = () => {
@@ -29,7 +31,7 @@ const Project = () => {
 
           <div className='projects'>
 
-            <img src={res} alt="res" />
+            <img src={lap} alt="laptop" />
             <h5>Laptop Shop Management System</h5>
             <p>Technologies Used : React, CSS, Nodejs, Expressjs, MongoDB</p>
           
@@ -43,7 +45,7 @@ const Project = () => {
 
           <div className='projects'>
 
-            <img src={res} alt="res" />
+            <img src={port} alt="portfolio" />
             <h5>My Portfolio</h5>
             <p>Technologies Used : HTML, CSS, REACT</p>
     
