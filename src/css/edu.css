@@ -16,12 +16,15 @@
 }
 
 .edu h2 {
+
     text-align: center;
     padding-top: 40px;
     color: var(--yellow);
+
 }
 
 .scl {
+
     text-align: center;
     display: flex;
     align-items: center;
@@ -29,6 +32,7 @@
 }
 
 .edu1 {
+
     padding: 20px;
     margin-top:70px;
     width: fit-content;
@@ -57,11 +61,12 @@
 
     color: white;
 }
+
 .data2 span{
+
     color:rgb(255, 0, 123);
     font-weight: bold;
    
-
 }
 
 .data span{
@@ -76,14 +81,15 @@
 {
     .clg{
 
-        margin-left:20px;
+        margin-left:10px;
     
     
     }
+    
     .scl{
 
         flex-wrap: wrap;
-        margin-left:20px;
+        margin-left:10px;
     }
     .edu1{
 
