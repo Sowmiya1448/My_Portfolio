@@ -5,8 +5,8 @@
 }
 .project{
 
-    padding-top:40px;
-    padding-bottom: -70px;
+    margin-top:40px;
+    padding-bottom:-200px;
   
 }
 .pro{
@@ -17,12 +17,13 @@
 }
 .projects{
 
-    height:400px;
+    height:475px;
     background-color:rgb(239, 175, 239);
     width: 350px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom:30px;
     transition: 0.3s;
+ 
  
 }
 
@@ -61,11 +62,16 @@ button a{
 
 
 
-.projects p{
+.projects .tech{
 
     padding: 0 10px;
     text-align: center;
  
+ 
+}
+.projects p{
+
+    padding: 10px;
 }
 .projects img{
 
