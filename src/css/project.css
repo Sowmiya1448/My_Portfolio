@@ -6,7 +6,7 @@
 .project{
 
     margin-top:40px;
-    padding-bottom:-200px;
+    padding-bottom:-400px;
   
 }
 .pro{
@@ -72,6 +72,7 @@ button a{
 .projects p{
 
     padding: 10px;
+    text-align: center;
 }
 .projects img{
 

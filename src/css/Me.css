@@ -39,7 +39,7 @@ section{
 .mine{
     background:url(../assets/backgroung.png);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -63,9 +63,7 @@ section{
 
 }
 
-@keyframes typing{
-    from { width: 0;}
-}
+
 
 .mine h1{
     font-size:3rem;
@@ -97,7 +95,7 @@ section{
    
     margin-top: 10px;
     background:var(--orange);
-     padding: 10px 30px;
+    padding: 10px 30px;
      border-radius:35px;
      width: fit-content;
      transition: 0.3s;
@@ -121,17 +119,31 @@ section{
     margin-left:0;
     padding:20px;
     width: fit-content;
-   }
-   
-   .mine{
-    background-image: url(../assets/backgroung.png);
-    background-repeat: no-repeat;
-    background-position: center;
-     background-size:cover;
-    width:100%;
-    height: 100vh;
 
-    }
+   }
+   .mine{
+    background:url(../assets/backgroung.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+     flex-flow: column;
+    
+}
+.bt2{
+
+    padding:10px 44px;
+}
+.bt1{
+
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+  
 
   
 }

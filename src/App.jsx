@@ -8,7 +8,6 @@ import Me from './html/Me'
 import Project from './html/Project'
 
 
-
 const App = () => {
 
   return (

@@ -1,4 +1,5 @@
 :root {
+
     --fontsizehead: 25px;
     --primarycolor: black;
     --secondarycolor: #ffc107;
@@ -26,14 +27,11 @@
     overflow-x: hidden;
 
 }
-
 .aboutme{
 
-   padding-top:40px;
-   text-align: center;
-
+    text-align: center;
+    padding-top: 40px;
 }
-
 
 .details{
 
@@ -112,6 +110,7 @@ font-weight: bold;
 }
 
 .ab nav ul li {
+
     list-style: none;
     font-size: var(--fontsizehead);
     font-weight: bold;
