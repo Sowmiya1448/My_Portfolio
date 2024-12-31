@@ -30,6 +30,15 @@ html::-webkit-scrollbar-thumb{
     background-color:black;
 }
 
+.anchor-link{
+
+  text-decoration: none;
+  color: black;
+  font-weight:400;
+  padding-right: 20px;
+  font-weight:bold;
+}
+
 body{
 
  overflow-x:hidden;

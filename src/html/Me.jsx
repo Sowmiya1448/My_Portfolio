@@ -6,7 +6,7 @@ import '../css/Me.css'
 const Me = () => {
 
     return (
-        <div className='mine'>
+        <div className='mine me1'>
             <section>
 
                 <div className='mee'>

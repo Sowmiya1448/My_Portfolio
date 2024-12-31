@@ -17,19 +17,16 @@ const Project = () => {
 
         <div className='pro-con'>
 
-
-
-
           <div className='projects'>
 
             <img src={res} alt="res" />
             <h5>Restaurant Management System</h5>
             <p className='tech'>Technologies Used : React, CSS, Nodejs, Expressjs, MongoDB</p>
-            <p>Developed a Restaurant Management system with separate login pages for chefs and admins. 
-              Admin functionalities include Dashboard, ordering, billing, managing menus and employees, 
+            <p>Developed a Restaurant Management system with separate login pages for chefs and admins.
+              Admin functionalities include Dashboard, ordering, billing, managing menus and employees,
               calculating monthly Salary based on Attendances.</p>
-        
-        </div>
+
+          </div>
 
           <div className='projects'>
 
@@ -37,8 +34,8 @@ const Project = () => {
             <h5>Laptop Shop Management System</h5>
             <p className='tech'>Technologies Used : React, CSS, Nodejs, Expressjs, MongoDB</p>
             <p>Built a web application using the MERN stack for managing laptops, stock, dealer details,
-               billing and payment details in a laptop shop.</p>
-          
+              billing and payment details in a laptop shop.</p>
+
 
 
 
@@ -51,12 +48,12 @@ const Project = () => {
             <img src={port} alt="portfolio" />
             <h5>My Portfolio</h5>
             <p className='tech'>Technologies Used : HTML, CSS, REACT</p>
-            <p>Built a personal portfolio website using HTML, CSS and React, 
+            <p>Built a personal portfolio website using HTML, CSS and React,
               showcasing my skills and projects.</p>
-    
 
 
-           
+
+
 
           </div>
 

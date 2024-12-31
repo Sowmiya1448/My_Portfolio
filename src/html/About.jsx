@@ -26,7 +26,7 @@ const About = () => {
                 
                 <div className='aboutme'>
                     
-                <h1><span style={{ color: 'orange' }}>About </span>me </h1>
+                <h1 className='text-center'><span style={{ color: 'orange' }}>About </span>me </h1>
 
                 </div>
 
